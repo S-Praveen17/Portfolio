@@ -20,7 +20,7 @@
 
 <!--menu-->
     <div class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
-        <a href="index.html" class="navbar-brand ml-lg-3">
+        
             <h1 class="m-0 display-5">
                 <span class="text-primary">My</span>Folio
             </h1>
@@ -328,14 +328,14 @@
         <div class="row">
             <div class="col-12 text-center mb-2">
                 <ul class="list-inline mb-4" id="portfolio-flters">
-                    <li class="btn btn-sm btn-outline-primary m-1 active" data-filter="*" >All</li>
-                    <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first"  >Design</li>
-                    <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Certificate</li>
+                    <li id="gallery-all" class="btn btn-sm btn-outline-primary m-1 active" >All</li>
+                    <li id="gallery-design" class="btn btn-sm btn-outline-primary m-1" >Design</li>
+                    <li id="gallery-certificate" class="btn btn-sm btn-outline-primary m-1">Certificate</li>
                 </ul>
             </div>
         </div>
         <div class="row portfolio-container">
-            <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item designs">
                 <div class="position-relative overflow-hidden mb-2">
                     <img class="img-fluid rounder w-100" src="{% static 'image/map.png' %}" alt="img">
                     <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
@@ -346,7 +346,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item designs">
                 <div class="position-relative overflow-hidden mb-2">
                     <img class="img-fluid rounder w-100" src="{% static 'image/instagram.png' %}" alt="img">
                     <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
@@ -357,7 +357,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item certificates">
                 <div class="position-relative overflow-hidden mb-2">
                     <img class="img-fluid rounder w-100" src="{% static 'image/cr.png' %}" alt="img">
                     <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
@@ -368,7 +368,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item certificates">
                 <div class="position-relative overflow-hidden mb-2">
                     <img class="img-fluid rounder w-100" src="{% static 'image/pirple.png' %}" alt="img">
                     <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
@@ -380,7 +380,7 @@
             </div>
 
 
-            <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item certificates">
                 <div class="position-relative overflow-hidden mb-2">
                     <img class="img-fluid rounder w-100" src="{% static 'image/upgrad.png' %}" alt="img">
                     <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
@@ -391,7 +391,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item designs">
                 <div class="position-relative overflow-hidden mb-2">
                     <img class="img-fluid rounder w-100" src="{% static 'image/data.png' %}" alt="img">
                     <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
@@ -457,11 +457,11 @@
     <div class="container text-center py-5">
 
         <div class="d-flex justify-content-center mb-4">
-            <a href="https://www.linkedin.com/in/praveen-kumar-726b53252/" class="btn btn-light btn-social mr-2"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.linkedin.com/in/praveen-kumar-726b53252/" target="_blank" class="btn btn-light btn-social mr-2"><i class="fab fa-linkedin-in"></i></a>
 
-            <a href="https://github.com/S-Praveen17" class="btn btn-light btn-social mr-2"><i class="fa-brands fa-github"></i></a>
+            <a href="https://github.com/S-Praveen17" target="_blank" class="btn btn-light btn-social mr-2"><i class="fa-brands fa-github"></i></a>
 
-            <a href="https://t.me/PraveenKr17" class="btn btn-light btn-social mr-2"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://t.me/PraveenKr17"target="_blank" class="btn btn-light btn-social mr-2"><i class="fa-brands fa-telegram"></i></a>
            
            
           

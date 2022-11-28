@@ -46,6 +46,32 @@ $(window).scroll(function (){
 
     //     portfolioIsotope.isotope({filter: $(this).data('filter')});
     // })
+
+    $('#gallery-all').on('click', function(){
+        $('#gallery-all').addClass('active')
+        $('#gallery-design').removeClass('active')
+        $('#gallery-certificate').removeClass('active')
+        $('.designs').show()
+        $('.certificates').show()
+    })
+
+    $('#gallery-design').on('click', function(){
+        $('#gallery-design').addClass('active')
+        $('#gallery-all').removeClass('active')
+        $('#gallery-certificate').removeClass('active')
+        $('.designs').show()
+        $('.certificates').hide()
+        // console.log("design");
+    })
+
+    $('#gallery-certificate').on('click', function(){
+        $('#gallery-certificate').addClass('active')
+        $('#gallery-design').removeClass('active')
+        $('#gallery-all').removeClass('active')
+        $('.designs').hide()
+        $('.certificates').show()
+    })
+
     $('.skill').waypoint(function(){
         
         $('.progress .progress-bar').each(function(){
