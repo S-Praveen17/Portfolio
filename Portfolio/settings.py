@@ -118,10 +118,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    ("downloads", "D:/html/Project/Portfolio/folio/templates"),
+    ("downloads", "C:/Users/Praveen Kumar/local_git/Portfolio/folio/templates"),
 ]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# C:\Users\Praveen Kumar\local_git\Portfolio\folio\templates
