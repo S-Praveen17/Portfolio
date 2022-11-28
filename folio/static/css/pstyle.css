@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    line-height: 1.15;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+    font-size: 1rem;
+    line-height:1.5;
+    color: #6c757d;
+    text-align: left;
+    background-color: #ffffff;
+}
+/*navbar*/
+
+a{
+    color:#0bceaf ;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover{
+    color: #078571;
+    text-decoration: underline;
+}
+.navbar-light{
+    display: none;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 25px 10px;
+    color: #343a40;
+    font-weight: 500;
+    outline: none;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active{
+    color: #0bceaf;
+}
+
+
+/*heading*/
+.about-img{
+    width: 500px;
+    height: 500px;
+    margin-left: -100px;
+    right:-60px;
+    
+}
+.btn{
+  
+    padding: 10px 25px;
+    border-radius: 100px;
+}
+.btn-white{
+    background: #ffffff;
+    border: 2px solid #ffffff;
+}
+.btn-blue{
+    border: 2.4px solid #ffffff;
+    color: #ffffff;
+}
+.hero-text{
+    margin-top: 150px;
+}
+.typed-cursor{
+    font-size: 45px;
+    color: #ffffff;
+}
+.position-absolute{
+    font-weight: 700;
+}
+/*About*/
+.intro{
+    
+    margin-top: 2px;
+    padding-top: 10px;
+}
+
+.blue{
+    background-color: rgb(32,125,248);
+    color: #ffffff;
+}
+.blue:hover{
+    background-color: rgb(255,255,255);
+    color: #0f6eeb;
+    border-radius: 2px solid blue;
+}
+
+.progress{
+    border-radius: 10px;
+}
+.progress .progress-bar{
+    width: 0px;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+.display-1{
+    font-size: 160px;
+    font-weight: 1000;
+}
+
+.position-absolute{
+    font-weight: 700;
+}
+.text-font{
+    font-size: 13px;
+}
+
+.portfolio-item .portfolio-btn{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top:50%;
+    left:50%;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.portfolio-item:hover .portfolio-btn{
+    opacity: 1;
+    width: calc(100% - 60px);
+    width: calc(100% - 60px);
+    top:90px;
+    left:20px;
+}
+.para{
+    padding-top: 5px;
+}
+.anchor{
+    text-decoration: none;
+}
+.anchor-hov a:hover{
+    text-decoration: none;
+    color: aqua;
+
+}
